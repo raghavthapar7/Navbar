@@ -51,3 +51,22 @@ body {
 .nav-buttons button:hover {
   color: #4dabf7;
 }
+
+.icons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+
+svg {
+  fill: #4dabf7;
+}
